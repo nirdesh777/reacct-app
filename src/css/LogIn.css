@@ -1,0 +1,46 @@
+/* ./css/LogIn.css */
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    color: darkblue;
+   }
+   
+.content-container {
+    width: 300px;
+    padding: 16px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   }
+   
+   input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+   }
+   
+   button {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+   }
+   
+   button:hover {
+    opacity: 0.8;
+   }
+   
+   .fail {
+    color: red;
+    text-align: center;
+   }
